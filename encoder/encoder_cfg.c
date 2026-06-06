@@ -36,8 +36,8 @@ static THD_WORKING_AREA(encoder_thread_wa, 256);
 #define SPI_DATASIZE_8BIT				0
 #define SPI_DATASIZE_16BIT				SPI_CR1_DFF
 
-#define AS504x_MOSI_GPIO				GPIOA
-#define AS504x_MOSI_PIN					7
+// #define AS504x_MOSI_GPIO				GPIOA
+// #define AS504x_MOSI_PIN					7
 AS504x_config_t encoder_cfg_as504x = {
 		{
 				GPIOA, 4,
